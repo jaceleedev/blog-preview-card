@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <main>
+      <article class="blog-preview-card">
+        <img
+          class="blog-preview-card__thumbnail"
+          src="./assets/images/illustration-article.svg"
+          alt="thumbnail"
+        />
+        <div class="blog-preview-card__content">
+          <div class="blog-preview-card__category">Learning</div>
+          <p class="blog-preview-card__publish-date">Published 21 Dec 2023</p>
+          <h1 class="blog-preview-card__title">
+            <a class="blog-preview-card__link" href="#"
+              >HTML &amp; CSS foundations</a
+            >
+          </h1>
+          <p class="blog-preview-card__description">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+        <figure class="blog-preview-card__author">
+          <img
+            class="blog-preview-card__author-photo"
+            src="./assets/images/image-avatar.webp"
+            alt="author"
+          />
+          <figcaption class="blog-preview-card__author-name">
+            Greg Hooper
+          </figcaption>
+        </figure>
+      </article>
+    </main>
+  </body>
 </html>
