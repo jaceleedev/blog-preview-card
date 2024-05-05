@@ -38,7 +38,6 @@ body {
   align-items: center;
 
   font-family: 'Figtree', sans-serif;
-  line-height: 150%;
 }
 
 .blog-preview-card {
@@ -86,12 +85,14 @@ body {
 
   font-size: 14px;
   font-weight: 800;
+  line-height: 150%;
   color: var(--color-black);
 }
 
 .blog-preview-card__publish-date {
   font-size: 14px;
   font-weight: 500;
+  line-height: 150%;
   color: var(--color-black);
 }
 
@@ -110,6 +111,7 @@ body {
 .blog-preview-card__description {
   font-size: 16px;
   font-weight: 500;
+  line-height: 150%;
   color: var(--color-grey);
 }
 
@@ -139,6 +141,10 @@ body {
 
     width: 329px;
     height: 503px;
+  }
+
+  .blog-preview-card__content {
+    grid-template-rows: 26px 18px 30px 63px;
   }
 
   .blog-preview-card__category {
