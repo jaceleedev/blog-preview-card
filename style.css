@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: normal;
+}
+
 :root {
   --color-white: #ffffff;
   --color-black: #111111;
@@ -24,6 +31,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: 'Figtree';
 }
 
 .blog-preview-card {
