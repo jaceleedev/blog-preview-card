@@ -60,7 +60,8 @@ body {
 
 .blog-preview-card__content {
   display: grid;
-  column-gap: 12px;
+  grid-template-rows: 29px 21px 36px 72px;
+  row-gap: 12px;
 }
 
 .blog-preview-card__category {
