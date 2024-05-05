@@ -9,6 +9,7 @@
   --color-white: #ffffff;
   --color-black: #111111;
   --color-yellow: #f4d04e;
+  --color-grey: #7f7f7f;
 }
 
 html {
@@ -105,6 +106,12 @@ body {
   color: var(--color-yellow);
 }
 
+.blog-preview-card__description {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-grey);
+}
+
 @media (max-width: 375px) {
   .blog-preview-card {
     width: 329px;
@@ -124,5 +131,9 @@ body {
 
   .blog-preview-card__title a {
     font-size: 20px;
+  }
+
+  .blog-preview-card__description {
+    font-size: 14px;
   }
 }
