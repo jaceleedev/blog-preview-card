@@ -112,6 +112,26 @@ body {
   color: var(--color-grey);
 }
 
+.blog-preview-card__author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 129px;
+  height: 32px;
+}
+
+.blog-preview-card__author-photo {
+  width: 32px;
+  height: 32px;
+}
+
+.blog-preview-card__author-name {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  color: var(--color-black);
+}
+
 @media (max-width: 375px) {
   .blog-preview-card {
     width: 329px;
