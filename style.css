@@ -58,6 +58,11 @@ body {
   border-radius: 10px;
 }
 
+.blog-preview-card__content {
+  display: grid;
+  column-gap: 12px;
+}
+
 @media (max-width: 375px) {
   .blog-preview-card {
     width: 329px;
