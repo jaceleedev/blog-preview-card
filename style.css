@@ -81,6 +81,13 @@ body {
   color: var(--color-black);
 }
 
+.blog-preview-card__publish-date {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--color-black);
+}
+
 @media (max-width: 375px) {
   .blog-preview-card {
     width: 329px;
@@ -91,6 +98,10 @@ body {
     width: 73px;
     height: 26px;
 
+    font-size: 12px;
+  }
+
+  .blog-preview-card__publish-date {
     font-size: 12px;
   }
 }
