@@ -23,6 +23,10 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -33,6 +37,7 @@ body {
   align-items: center;
 
   font-family: 'Figtree', sans-serif;
+  line-height: 150%;
 }
 
 .blog-preview-card {
@@ -85,8 +90,19 @@ body {
 .blog-preview-card__publish-date {
   font-size: 14px;
   font-weight: 500;
+  color: var(--color-black);
+}
+
+.blog-preview-card__title a {
+  font-size: 24px;
+  font-weight: 800;
   line-height: 150%;
   color: var(--color-black);
+}
+
+.blog-preview-card__title a:hover,
+.blog-preview-card__title a:active {
+  color: var(--color-yellow);
 }
 
 @media (max-width: 375px) {
@@ -104,5 +120,9 @@ body {
 
   .blog-preview-card__publish-date {
     font-size: 12px;
+  }
+
+  .blog-preview-card__title a {
+    font-size: 20px;
   }
 }
