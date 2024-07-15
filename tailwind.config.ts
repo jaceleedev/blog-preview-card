@@ -17,6 +17,9 @@ const config: Config = {
         mobile: '375px',
         desktop: '1440px',
       },
+      fontFamily: {
+        figTree: ['var(--font-figTree)'],
+      },
     },
   },
   plugins: [],
