@@ -14,7 +14,7 @@ const config: Config = {
         'medium-gray': '#7F7F7F',
       },
       screens: {
-        mobile: '375px',
+        mobile: { max: '375px' },
         desktop: '1440px',
       },
       fontFamily: {
