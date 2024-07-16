@@ -10,7 +10,7 @@
   }
 
   &__title {
-    @apply text-2xl not-italic font-extrabold leading-[150%] text-charcoal-black;
+    @apply text-2xl not-italic font-extrabold leading-[150%] text-charcoal-black cursor-pointer hover:text-primary;
   }
 
   &__description {
