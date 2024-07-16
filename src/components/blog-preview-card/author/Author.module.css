@@ -1,0 +1,11 @@
+.author {
+  @apply flex items-center gap-3;
+
+  &__image {
+    @apply w-8 h-8 rounded-lg bg-cover bg-center bg-no-repeat;
+  }
+
+  &__name {
+    @apply text-sm not-italic font-extrabold leading-[150%] text-charcoal-black;
+  }
+}
