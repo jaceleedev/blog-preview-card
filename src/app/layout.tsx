@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${figTree.variable}`}>{children}</body>
+      <body className={`${figTree.variable} mobile:px-6`}>{children}</body>
     </html>
   );
 }

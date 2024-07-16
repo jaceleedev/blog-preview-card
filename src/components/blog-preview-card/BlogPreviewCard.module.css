@@ -1,3 +1,3 @@
 .blog-preview-card {
-  @apply flex flex-col items-start gap-6 shrink-0 w-96 p-6 border border-solid border-charcoal-black rounded-[1.25rem] bg-white shadow-[8px_8px_0_0_#000000] hover:shadow-[16px_16px_0_0_#000000] transition-shadow;
+  @apply flex flex-col items-start gap-6 shrink-0 w-96 p-6 border border-solid border-charcoal-black rounded-[1.25rem] bg-white shadow-[8px_8px_0_0_#000000] hover:shadow-[16px_16px_0_0_#000000] transition-shadow mobile:w-[327px] mobile:shrink;
 }
