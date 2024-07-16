@@ -1,9 +1,12 @@
+import { ReactNode } from 'react';
 import styles from './BlogPreviewCard.module.css';
 
-function BlogPreviewCard() {
-  return (
-    <article className={styles['blog-preview-card']}>BlogPreviewCard</article>
-  );
+type BlogPreviewCardProps = {
+  children: ReactNode;
+};
+
+function BlogPreviewCard({ children }: BlogPreviewCardProps) {
+  return <article className={styles['blog-preview-card']}>{children}</article>;
 }
 
 export default BlogPreviewCard;
