@@ -13,8 +13,8 @@ function Thumbnail({ imagePath, alt }: ThumbnailProps) {
         className={styles.thumbnail__image}
         src={imagePath}
         alt={alt}
-        layout="fill"
-        objectFit="cover"
+        fill={true}
+        priority={true}
       />
       <figcaption>{alt}</figcaption>
     </figure>

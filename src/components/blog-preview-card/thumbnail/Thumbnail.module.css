@@ -2,6 +2,6 @@
   @apply relative w-full h-[12.5rem];
 
   &__image {
-    @apply rounded-[0.625rem];
+    @apply rounded-[0.625rem] object-cover;
   }
 }

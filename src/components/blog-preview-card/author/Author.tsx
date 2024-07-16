@@ -12,7 +12,6 @@ function Author({ name, imagePath }: AuthorProps) {
         className={styles.author__image}
         style={{
           backgroundImage: `url(${imagePath})`,
-          backgroundColor: 'lightgray',
         }}
         aria-label={`profile picture of ${name}`}
       />
