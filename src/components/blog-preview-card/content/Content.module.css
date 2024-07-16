@@ -1,0 +1,19 @@
+.content {
+  @apply flex flex-col items-start gap-3;
+
+  &__category {
+    @apply flex justify-center items-center px-3 py-1 text-sm not-italic font-extrabold leading-[150%] text-charcoal-black rounded-[0.25rem] bg-primary;
+  }
+
+  &__date {
+    @apply text-sm not-italic font-medium leading-[150%] text-charcoal-black;
+  }
+
+  &__title {
+    @apply text-2xl not-italic font-extrabold leading-[150%] text-charcoal-black;
+  }
+
+  &__description {
+    @apply text-base not-italic font-medium leading-[150%] text-medium-gray;
+  }
+}
