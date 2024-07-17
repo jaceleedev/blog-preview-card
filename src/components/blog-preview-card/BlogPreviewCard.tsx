@@ -1,17 +1,32 @@
-import { ReactNode } from 'react';
+import Author, { AuthorProps } from './author/Author';
 import styles from './BlogPreviewCard.module.css';
+import Content, { ContentProps } from './content/Content';
+import Thumbnail, { ThumbnailProps } from './thumbnail/Thumbnail';
 
-type BlogPreviewCardProps = {
-  children: ReactNode;
-};
+type BlogPreviewCardProps = ThumbnailProps & ContentProps & AuthorProps;
 
-function BlogPreviewCard({ children }: BlogPreviewCardProps) {
+function BlogPreviewCard({
+  thumbnailImage,
+  category,
+  date,
+  title,
+  description,
+  authorImage,
+  authorName,
+}: BlogPreviewCardProps) {
   return (
     <article
       className={styles['blog-preview-card']}
       aria-label="blog-preview-card"
     >
-      {children}
+      <Thumbnail thumbnailImage={thumbnailImage} />
+      <Content
+        category={category}
+        date={date}
+        title={title}
+        description={description}
+      />
+      <Author authorImage={authorImage} authorName={authorName} />
     </article>
   );
 }

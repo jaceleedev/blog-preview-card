@@ -1,22 +1,21 @@
 import Image from 'next/image';
 import styles from './Thumbnail.module.css';
 
-type ThumbnailProps = {
-  imagePath: string;
-  alt: string;
+export type ThumbnailProps = {
+  thumbnailImage: string;
 };
 
-function Thumbnail({ imagePath, alt }: ThumbnailProps) {
+function Thumbnail({ thumbnailImage }: ThumbnailProps) {
   return (
     <figure className={styles.thumbnail}>
       <Image
         className={styles.thumbnail__image}
-        src={imagePath}
-        alt={alt}
+        src={thumbnailImage}
+        alt={`blog preview card thumbnail`}
         fill={true}
         priority={true}
       />
-      <figcaption>{alt}</figcaption>
+      <figcaption>blog preview card thumbnail</figcaption>
     </figure>
   );
 }

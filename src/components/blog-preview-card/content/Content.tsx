@@ -1,6 +1,6 @@
 import styles from './Content.module.css';
 
-type ContentProps = {
+export type ContentProps = {
   category: string;
   date: string;
   title: string;
