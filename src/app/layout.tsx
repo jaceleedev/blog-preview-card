@@ -1,10 +1,11 @@
 import type { Metadata, Viewport } from 'next';
-import { Figtree } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const figTree = Figtree({
-  subsets: ['latin'],
+const figTree = localFont({
+  src: '../../public/fonts/Figtree-VariableFont_wght.ttf',
   display: 'swap',
+  style: 'normal',
   variable: '--font-figTree',
 });
 
