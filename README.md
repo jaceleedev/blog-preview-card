@@ -80,9 +80,9 @@ Make sure you have the following software installed on your machine:
 
 ### Built with
 
-- [Next.js](https://nextjs.org/)
-- TypeScript
-- [Tailwind CSS](https://tailwindcss.com/)
+- Next.js (v14.2.5)
+- TypeScript (v5)
+- Tailwind CSS (v3.4.1)
 - CSS Modules
 - CSS BEM methodology
 - CSS custom properties
