@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply flex justify-center items-center w-screen h-screen font-figTree bg-primary mobile:flex-col px-6;
+  @apply flex justify-center items-center w-screen h-screen bg-primary;
+
+  @screen mobile {
+    @apply px-6;
+  }
 }
