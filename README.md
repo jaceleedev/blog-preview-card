@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Blog preview card solution
+
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+<img src="./design/screenshot-desktop.png" height='200px'>
+<img src="./design/screenshot-active.png" height='200px'>
+<img src="./design/screenshot-mobile.png" height='200px'>
+
+### Links
+
+- Solution URL: [https://github.com/jaceleedev/blog-preview-card](https://github.com/jaceleedev/blog-preview-card)
+- Live Site URL: [https://blog-preview-card-omega-self.vercel.app/](https://blog-preview-card-omega-self.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/) (Node.js 18.17 or later)
+- [pnpm](https://pnpm.io/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/jaceleedev/blog-preview-card.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd blog-preview-card
+   ```
+
+3. Install dependencies using pnpm:
+
+   ```sh
+   pnpm install
+   ```
+
+4. Start the development server:
+
+   ```sh
+   pnpm dev
+   ```
+
+5. Open your browser and visit http://localhost:3000 to view the project.
+
+## My process
+
+### Built with
+
+- [Next.js](https://nextjs.org/)
+- TypeScript
+- [Tailwind CSS](https://tailwindcss.com/)
+- CSS Modules
+- CSS BEM methodology
+- CSS custom properties
+- Semantic HTML5 markup
+- SEO & web accessibility
+
+### What I learned
+
+During this project, I enhanced my skills in using Next.js and Tailwind CSS. I learned how to effectively combine CSS Modules with Tailwind CSS for scoped and utility-first styling. I also gained a better understanding of semantic HTML and web accessibility practices. This project represents my solution to the ongoing debate about how to effectively use and manage CSS in modern web development. By integrating Tailwind CSS with CSS Modules and employing the BEM methodology, I have developed a structured approach to styling components. This method allows for scalable, maintainable, and highly readable code.
+
+#### Code snippets:
+
+```html
+<!-- import styles from './Component.module.css' -->
+<h1 className="{styles.my-header}">Some HTML code</h1>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```css
+/* CSS Module */
+.my-header {
+  @apply text-primary font-bold;
+}
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Continued development
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In future projects, I plan to continue focusing on responsive design and component-based architecture. I aim to deepen my understanding of Next.js and Tailwind CSS while further enhancing the accessibility of my web applications. My goal is to create more efficient, user-friendly, and accessible web experiences.
 
-## Learn More
+### Useful resources
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) - Comprehensive guide to Next.js features and API.
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation) - Detailed documentation for Tailwind CSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- GitHub - [@jaceleedev](https://github.com/jaceleedev)
+- Frontend Mentor - [@jaceleedev](https://www.frontendmentor.io/profile/jaceleedev)
