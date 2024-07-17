@@ -43,8 +43,8 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(function ({ addUtilities, theme }) {
-      const newUtilities = {
+    plugin(function ({ addComponents, theme }) {
+      const typographyComponents = {
         '.body-s-regular': {
           fontFamily: theme('fontFamily.figTree') || 'var(--font-figTree)',
           fontSize: theme('fontSize.body-s-regular') || '0.875rem',
@@ -96,7 +96,7 @@ const config: Config = {
         },
       };
 
-      addUtilities(newUtilities);
+      addComponents(typographyComponents);
     }),
   ],
 };
