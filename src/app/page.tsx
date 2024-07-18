@@ -1,4 +1,4 @@
-import BlogPreviewCard from '@/components/blog-preview-card';
+import BlogPreviewCard from '@/components/BlogPreviewCard';
 
 export default function Home() {
   return (
