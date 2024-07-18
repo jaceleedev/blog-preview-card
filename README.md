@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/jaceleedev/blog-preview-card](https://github.com/jaceleedev/blog-preview-card)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-with-nextjs-tailwind-css-css-module-hiCGksj0Ss](https://www.frontendmentor.io/solutions/blog-preview-card-with-nextjs-tailwind-css-css-module-hiCGksj0Ss)
 - Live Site URL: [https://blog-preview-card-omega-self.vercel.app/](https://blog-preview-card-omega-self.vercel.app/)
 
 ## Getting Started
