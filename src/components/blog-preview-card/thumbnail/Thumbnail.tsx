@@ -15,7 +15,7 @@ function Thumbnail({ thumbnailImage }: ThumbnailProps) {
         fill={true}
         priority={true}
       />
-      <figcaption>blog preview card thumbnail</figcaption>
+      <figcaption className="sr-only">blog preview card thumbnail</figcaption>
     </figure>
   );
 }
