@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './Thumbnail.module.css';
+import styles from './index.module.css';
 
 export type ThumbnailProps = {
   thumbnailImage: string;

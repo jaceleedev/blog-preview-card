@@ -1,7 +1,7 @@
-import Author, { AuthorProps } from './author/Author';
+import Author, { AuthorProps } from './author';
 import styles from './index.module.css';
-import Content, { ContentProps } from './content/Content';
-import Thumbnail, { ThumbnailProps } from './thumbnail/Thumbnail';
+import Content, { ContentProps } from './content';
+import Thumbnail, { ThumbnailProps } from './thumbnail';
 
 type BlogPreviewCardProps = ThumbnailProps & ContentProps & AuthorProps;
 

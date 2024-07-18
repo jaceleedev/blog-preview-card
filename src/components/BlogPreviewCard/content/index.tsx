@@ -1,4 +1,4 @@
-import styles from './Content.module.css';
+import styles from './index.module.css';
 
 export type ContentProps = {
   category: string;

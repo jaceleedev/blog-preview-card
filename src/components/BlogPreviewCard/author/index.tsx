@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './Author.module.css';
+import styles from './index.module.css';
 
 export type AuthorProps = {
   authorImage: string;
