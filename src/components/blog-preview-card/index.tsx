@@ -1,5 +1,5 @@
 import Author, { AuthorProps } from './author/Author';
-import styles from './BlogPreviewCard.module.css';
+import styles from './index.module.css';
 import Content, { ContentProps } from './content/Content';
 import Thumbnail, { ThumbnailProps } from './thumbnail/Thumbnail';
 
